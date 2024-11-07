@@ -1,4 +1,44 @@
+body {
+    background-color: #000000;
+}
 #header {
     display: flex;
     font-size: 50px;
+    justify-content: center;
+    background-color: #1E2229;
+    color: #C4C8CE;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    width: 1600px;
+    border-radius: 20px;
+}
+#logo {
+    width: 60px;
+    height: 50px;
+    margin: 0 25px 0 0;
+}
+#recuadros {
+    display: flex;
+}
+#autor {
+    color: wheat;
+}
+.cuadro-uno {
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(172, 214, 230);
+}
+.cuadro-dos {
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    background-color: rgb(222, 209, 234);
+}
+.cuadro-tres {
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    background-color: rgb(240, 223, 223);
 }
